@@ -36,6 +36,6 @@ echo "<br>";
 
 
 $variable_nula = 33;
-echo $variable_nula . " Ahora resulta que la variable nula vale 33 ><"
+echo $variable_nula . " Ahora resulta que la variable nula vale 33 (><)"
     
 ?>
