@@ -1,5 +1,8 @@
 <?php
 
+//gsprogramacion.com
+
+
 // ejemplos de funciones con strings. Ejecutar el codigo y comparar el resultado examinando a la vez el codigo para entender mejor.
 
 
