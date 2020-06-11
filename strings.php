@@ -4,14 +4,16 @@
 
 
 
+
 // str_len
 echo "str_len() <br>";
 
 $risa = "jiji la risita";
-echo strlen($risa);      //devuelve 14, la cantidad de letras de la cadena "jiji la risita"
+echo strlen($risa); // devuelve 14, la cantidad de letras de la cadena "jiji la risita"
 echo "<br>";
 echo strlen("jaja la risa"); // como veis tambien puede contar los caracteres de una cadena que se introduce directamente.
 echo "<br>";
+
 
 
 
@@ -20,7 +22,12 @@ echo "<br>";
 
 echo " <br> str_word_count()";
 $cadena1 = "Cuentame las palabras PHP!";
-echo "<br>" . str_word_count($cadena1);   //devuelve 4, cantidad de palabras separadas por espacio en blanco
+echo "<br>" . str_word_count($cadena1); // devuelve 4, cantidad de palabras separadas por espacio en blanco
+
+
+
+
+
 
 // strpos
 
@@ -34,30 +41,69 @@ echo "<br>" . "Ejecutamos strpos('nuestra cadena', 'Mundo') y nos devuelve ";
 
 echo strpos($saludo, "Mundo"); // cabe señalar que nos devuelve 5 porque empieza a contar desde 0, en este caso H-0 o-1 l-2 a-3 espacio-4 M-5
 
+
+
+
+
+
 // substr()
 
 echo "<br><br> substr()";
 
-echo "<br>" . substr("Hola mundo", 2, 4); // devolvera "la m", Empezara en el 2 y recorrerá 4.  por supuesto en vez de "Hola mundo" puedes poner una variable $cualquierstring
+echo "<br>" . substr("Hola mundo", 2, 4); // devolvera "la m", Empezara en el 2 y recorrerá 4. por supuesto en vez de "Hola mundo" puedes poner una variable $cualquierstring
 
-echo "<br>" . substr("Hola Mundo", -3); // devolver ndo, ya que son las ultimas 3
+echo "<br>" . substr("Hola Mundo", - 3); // devolver ndo, ya que son las ultimas 3
 
 
-//strcmp() & strcasecmp()
+
+
+
+
+// strcmp() & strcasecmp()
 
 echo "<br><br> strcmp() & strcasecmp()";
 
 $cad1 = "Hola mundo";
 $cad2 = "HOLA MUNDO";
 
-echo strcmp($cad1, $cad2); //devuelve 1 ya que son iguales salvo por las mayusculas.
+echo strcmp($cad1, $cad2); // devuelve 1 ya que son iguales salvo por las mayusculas.
 echo "<br>";
-echo strcasecmp($cad1, $cad2); //devuelve 0 ya que tiene en cuenta las mayusculas.
+echo strcasecmp($cad1, $cad2); // devuelve 0 ya que tiene en cuenta las mayusculas.
 
 
 
 
-//minusculas y MAYUSCULAS
+
+
+// str_replace()
+
+echo "<br><br> str_replace() <br>";
+
+$cad4 = "Cadena.con.puntos.entre.las.ies.";
+$cad4 = str_replace(".", " ", $cad4); // recordad que lo que pasemos ha de ir separado por comas
+echo $cad4; // en este caso le decimos que ponga caracteres en blanco en lugar de puntos
+            // en la cadena que le indicamos
+
+
+
+
+
+
+// trim() y rtrim()
+echo "<br><br> trim() y rtrim() <br>";
+$cad5 = "...Cadena con caracteres a....";
+
+echo trim($cad5, "a."); // importante como aqui le estamos indicando que elimine tanto los puntos, como las 'a' que pueda haber al principio y al final
+                        // devuelve Cadena con caracteres
+echo "<br>";
+
+echo rtrim($cad5, "."); // aqui eliminamos solo los puntos al final de la cadena, devuelve '...Cadena con caracteres a'
+
+
+
+
+
+// minusculas y MAYUSCULAS
 echo "<br><br>Minusculas y mayusculas";
 $cadena = "hola mundillo";
 
@@ -72,6 +118,8 @@ echo "<br>" . ucwords($cadena); // devolvera Hola Mundillo
 
 
 
+
+
 // str_shuffle
 
 echo "<br><br> str_shuffle()" . "<br>";
@@ -81,8 +129,12 @@ $cadenaEjemplo = "Tenemos que aprender a programar robots para que programen rob
 str_shuffle($cadenaEjemplo); // hemos usado la funcion, pero ni la mostramos ni le damos ninguna utilidad.
 
 echo "<br>" . $cadenaEjemplo; // aqui comprobamos que la variable $cadenaEjemplo sigue sin alterar, el cambio solo se aplica momentanemante
-// sin embargo podriamos almacenar el resultado en otra variable $cadenaDesordenada= str_shuffle($cadenaEjemplo);
+                              // sin embargo podriamos almacenar el resultado en otra variable $cadenaDesordenada= str_shuffle($cadenaEjemplo);
 echo "<br>" . "Desordenada = " . str_shuffle($cadenaEjemplo);
+
+
+
+
 
 // str_rev
 
