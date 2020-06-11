@@ -12,7 +12,7 @@
 
 <?php 
 
-//se abre la etiquetas PHP
+//se abre la etiquetas PHP.
 
 echo "Hola Mundo";  //la sentencia ha de acabar con ;
 
