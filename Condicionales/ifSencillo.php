@@ -1,5 +1,6 @@
 <?php
 
+//gsprogramacion.com
 
 $variableCondicion = 15;  //la variable con  valor 15
 

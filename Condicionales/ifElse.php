@@ -1,7 +1,7 @@
 <?php 
 
 
-
+//gsprogramacion.com
 
 $variableCondicion = 12; 
 
