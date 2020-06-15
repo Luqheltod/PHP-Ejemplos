@@ -1,26 +1,20 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>No title yet</title>
-</head>
-<body>
+<?php 
 
-<?php
 
-//gsprogramacion.com
 
-$x = 6;
 
-if ($x > 3) {
+$variableCondicion = 12; 
 
-    echo "Es mayor que 3";
-} else { 
+
+if($variableCondicion == 133){  //Si la variable vale 133, entrariamos a ejecutar lo siguiente. 
     
-    echo "Es menor que 3";
+    echo "Cualquier codigo que queramos ejecutar"; 
+    
+} else{        //Aqui estamos indicando que debe ejecutar en caso de que no entre en el IF 
+    
+    
+    echo "La variable no vale 133"; 
+    
 }
+
 ?>
-
-</body>
-
-</html>
