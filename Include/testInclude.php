@@ -13,5 +13,5 @@ include("PRUEBOTAS.php");  //codigo que incluimos en este momento   . Este codig
 
 $y = $x +5;
 
-echo "Nuestra variable tras el include = " . $y;  // no mostrara 8, ya que actualmente debido al include nuestra x vale 17.
+echo "Nuestra variable tras el include = " . $y;  // no mostrara 8, ya que actualmente debido al include nuestra x vale 17. Por lo tanto muestra 17+5=22
 ?>
