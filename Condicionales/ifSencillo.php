@@ -5,6 +5,10 @@
 $variableCondicion = 15;  //la variable con  valor 15
 
 
+
+//Se declara el IF, entre parentesis la condicion que queremos que se cumpla. A continuacion se abre la llave del if, el codigo que
+//debe ejecutarse si la condicion se cumple, y se cierra la llave. 
+
 if($variableCondicion > 15) {   //Si la variable es mayor a 15, se ejecutara lo siguiente. En este caso no lo es.
     
     
