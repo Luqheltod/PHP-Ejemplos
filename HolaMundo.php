@@ -12,7 +12,7 @@
 
 <?php 
 
-//gsprogramacion.com
+//visite gsprogramacion.com
 
 
 //se abre la etiquetas PHP.
