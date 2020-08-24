@@ -6,7 +6,7 @@ $x = 3 ;
 $y = $x +5;
 echo "Nuestra variable antes del include = " . $y;   //la variable $y vale 8, el resultado de sumar 5 mas 3.
 echo "<br>";
-include("PRUEBOTAS.php");  //codigo que incluimos en este momento   . Este codigo lo unico que tiene es $x=17.
+include("include1.php");  //codigo que incluimos en este momento   . Este codigo lo unico que tiene es $x=17.
 //es como si lo hubiesemos escrito en esta misma linea.
 
 
