@@ -1,8 +1,9 @@
+
 <?php
 //gsprogramacion.com
 
 
-//declaramos e inicializamos el array planetas
+//declaramos e inicializamos el array planetas.
 
 $planetas = array("Mercurio" , "Venus", "Tierra" ,"Marte" , "Jupiter" , "Saturno" , "Urano" , "Neptuno");
 
