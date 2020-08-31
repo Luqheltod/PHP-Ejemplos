@@ -12,6 +12,7 @@ session_start();
 
 <?php 
 
+//gsprogramacion.com
 
 $_SESSION["arrayColores"] = array("rojo" , "amarillo");
 $_SESSION["animal"] = "gato";
