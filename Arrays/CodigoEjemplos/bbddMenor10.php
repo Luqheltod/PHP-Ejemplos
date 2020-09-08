@@ -1,4 +1,6 @@
 <?php
+//gsprogramacion.com
+
 require_once "Conexion.php";
 
 $conexion = Conexion::conectar();
