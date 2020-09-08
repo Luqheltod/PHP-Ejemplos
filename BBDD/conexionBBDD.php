@@ -1,5 +1,5 @@
 <?php
-
+//gsprogramacion.com
 
 //instanciamos el objeto PDO. Lo guardamos en la variable $conexion
 //indicamos que el tipo de bbdd es mysql, el dominio es localhost (nuestro equipo)
