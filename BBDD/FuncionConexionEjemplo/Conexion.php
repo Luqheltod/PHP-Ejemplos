@@ -1,10 +1,11 @@
 <?php
-
+//gsprogramacion.com
 class Conexion
 {
 
     public static function conectar()
     {
+        //incluimos nuestro archivo de configuracion, donde tenemos definidas las constantes.
         require_once ("config.php");
 
         try {
