@@ -1,6 +1,7 @@
 <?php
 
-//aqui definimos sin mas las constantes de nuestra conexion , de esta forma solo tendriamos que venir aqui si se moviese.
+//gsprogramacion.com
+//aqui definimos sin mas las constantes de nuestra conexion , de esta forma solo tendriamos que venir aqui si necesitaramos modificarlas.
 
 
 define("DB_HOST", "localhost");
