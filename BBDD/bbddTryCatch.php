@@ -27,7 +27,7 @@ $resultado = $conexion->query($sql);
 while( $datos = $resultado->fetch(PDO::FETCH_ASSOC)) {
     
     echo "ID = " . $datos["ID"] . " NOMBRE = " . $datos["NOMBRE"] . " EDAD = " . $datos["EDAD"]
-    . " PRECIO = " . $datos["PRECIO"] . " PESO = " . $datos["PESO(GR)"];
+    . " PRECIO = " . $datos["PRECIO"] . " PESO = " . $datos["PESO"];
     echo "<br>";
 }
 
