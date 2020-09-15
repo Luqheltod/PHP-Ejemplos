@@ -45,7 +45,7 @@ if(isset($_POST["Submit"])){
     
     //nuestra sentencia SQL por tanto será : 
     
-    $sql = "INSERT INTO `juguetes` (`ID`, `NOMBRE`, `EDAD`, `PRECIO`, `PESO(GR)`) VALUES (NULL, '$nombre', '$edad', '$precio', '$peso');";
+    $sql = "INSERT INTO `juguetes` (`ID`, `NOMBRE`, `EDAD`, `PRECIO`, `PESO`) VALUES (NULL, '$nombre', '$edad', '$precio', '$peso');";
     
     //quedaria conectarnos a la BBDD y ejecutarla , usamos nuestro archivo de conexion. 
     
