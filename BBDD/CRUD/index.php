@@ -12,7 +12,7 @@
 
 
 <?php   
-
+//gsprogramacion.com
 require "Conexion.php";
 $conexion = Conexion::conectar();
 //Codigo para insertar al pulsar el boton de insertar 
