@@ -1,5 +1,5 @@
 <?php
-
+//gsprogramacion.com
 //aqui definimos sin mas las constantes de nuestra conexion , de esta forma solo tendriamos que venir aqui si se moviese.
 
 
