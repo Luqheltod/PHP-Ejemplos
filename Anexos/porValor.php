@@ -4,9 +4,9 @@
 $variable = 12;
 
 //a esta funcion le tenemos que pasar un parametro, simplemente suma 1 y lo muestra
-function sumoUno($var){
+function sumoUno($variable){
     
-    $variable = $var +1;
+    $variable = $variable +1;
     
     echo $variable;
 }
@@ -16,7 +16,7 @@ function sumoUno($var){
 
 sumoUno($variable);
 
-//si havemos var_dump en la variable de arriba, seguira mostrando 12, no hemos cambiado la variable
+//si hacemos var_dump en la variable de arriba, seguira mostrando 12, no hemos cambiado la variable
 
 var_dump($variable);
 
