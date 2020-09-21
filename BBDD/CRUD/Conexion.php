@@ -1,5 +1,5 @@
 <?php
-
+//gsprogramacion.com
 class Conexion
 {
 
