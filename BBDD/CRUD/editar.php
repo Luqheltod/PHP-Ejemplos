@@ -7,6 +7,7 @@
 </head>
 
 <?php  
+//gsprogramacion.com
 require("Conexion.php");
 $conexion = Conexion::conectar();
 if(isset($_POST["Submit"])){   //si han pulsado el boton, hacemos el update con lo que haya dicho y redirigimos a index
