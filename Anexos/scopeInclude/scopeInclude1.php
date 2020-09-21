@@ -1,0 +1,7 @@
+<?php
+
+
+$variable = "ola olita";
+
+
+?>
