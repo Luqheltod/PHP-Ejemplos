@@ -10,6 +10,7 @@ function decirOla(){
 }
 
 
+//podra mostrar ola, gracias a la palabra reservada global.
 decirOla();
 
 
